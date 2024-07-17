@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Ec-UI"
+  name: "el-comp"
   text: "类 EL 组件库"
   tagline: My great project tagline
   actions:

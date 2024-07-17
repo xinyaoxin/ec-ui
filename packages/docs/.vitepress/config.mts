@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Ec-UI",
+  title: "El-Comp",
   description: "类 EL 组件库",
   base: '/el-comp/',
   themeConfig: {

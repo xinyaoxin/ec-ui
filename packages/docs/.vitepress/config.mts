@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Ec-UI",
   description: "类 EL 组件库",
-  base: '/ec-ui/',
+  base: '/el-comp/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

@@ -1,5 +1,5 @@
 <template>
-  <button style="color: #fff;">按钮</button>
+  <button style="color: red;">按钮</button>
 </template>
 
 <script setup lang="ts">

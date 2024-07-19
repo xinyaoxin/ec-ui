@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'todo'",
     "dev": "pnpm  --filter @el-comp/play dev",
+    "storybook": "pnpm  --filter @el-comp/play storybook",
     "docs:dev": "pnpm  --filter @el-comp/docs dev",
     "docs:build": "pnpm  --filter @el-comp/docs build",
-    "docs:preview": "pnpm  --filter @el-comp/docs preview"
+    "docs:preview": "pnpm  --filter @el-comp/docs preview",
+    "test": "pnpm  --filter @el-comp/components test"
   },
   "keywords": [],
   "author": "",
@@ -35,7 +36,10 @@
     "el-comp": "workspace:*",
     "@el-comp/hooks": "workspace:*",
     "@el-comp/utils": "workspace:*",
-    "@el-comp/theme": "workspace:*"
+    "@el-comp/theme": "workspace:*",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8"
   }
 }
 
